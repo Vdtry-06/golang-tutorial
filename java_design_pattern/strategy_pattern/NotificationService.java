@@ -7,7 +7,7 @@ public class NotificationService {
         this.notifier = notifier;
     }
 
-    public void SendNotification(String message) {
+    public void sendNotification(String message) {
         notifier.send(message);
     }
 
